@@ -1,0 +1,13 @@
+// Importation des variables
+@use '../utils/variables' as *;
+
+body {
+    background-color: $info;
+
+    h1 {
+        color: black
+    }
+    h2 {
+        color: $secondary
+    }
+}

@@ -1,0 +1,14 @@
+@use './utils/variables' as *;
+
+/**** IMPORTATION DE BOOTSTRAP *****/
+@use "bootstrap/scss/bootstrap" with (
+    $primary: $primary,
+    $secondary: $secondary, 
+    $info: $info
+) ;
+
+@use './base/base.scss'; // Importation du style de base de chaque page s'il y en a plusieurs
+@use './components/lists.scss'; // Importation des styles du composant de liste
+
+// Importation de la stylisation de la page d'accueil
+@use './pages/homepage';

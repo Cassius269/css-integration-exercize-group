@@ -1,5 +1,23 @@
 {
-  "dependencies": {
-    "bootstrap": "5.3.7"
-  }
+ "name": "html-css-bootstrap-recipe-page-main",
+ "version": "1.0.0",
+ "type": "module",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "vite"
+ },  
+ "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cassius269/html-css-bootstrap-cv/issues"
+  },
+ "dependencies": {
+  "@popperjs/core": "^2.11.8",
+  "bootstrap": "^5.3.7"
+ },
+ "devDependencies": {
+  "sass": "^1.89.2",
+  "vite": "^7.0.0"
+ }
 }

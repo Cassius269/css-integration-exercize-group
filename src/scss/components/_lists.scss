@@ -1,0 +1,19 @@
+@use '../utils/variables' as *;
+ul {
+    list-style-position: outside;
+    margin-left: -0.5rem;
+   li {
+    padding: 0.2rem;
+    &::marker {
+        color: $primary;
+  }
+   } 
+}
+
+ol {
+    li {
+     &::marker {
+        color: $primary;
+    }
+    }
+}

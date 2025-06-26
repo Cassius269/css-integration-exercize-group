@@ -1,0 +1,10 @@
+table {
+    margin: auto;
+    width: 100%;
+    border-collapse:  collapse;
+    tr {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 0.5px solid rgb(187, 182, 182);
+    }
+}
