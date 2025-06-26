@@ -1,10 +1,11 @@
 table {
     margin: auto;
-    width: 100%;
+    width: 100%; /* prendre toute la largeur du parent direct */
     border-collapse:  collapse;
     tr {
-        display: flex;
-        justify-content: space-around;
         border-bottom: 0.5px solid rgb(187, 182, 182);
+        td {
+            text-align: start;
+        }
     }
 }

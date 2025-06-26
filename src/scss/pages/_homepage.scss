@@ -1,1 +1,8 @@
 @use '../components/table';
+@use '../utils/placeholders' as *;
+
+main {
+    #mainArticlePreparationTime {
+        @extend %manageWidthArticlePreparationTime;
+    }
+}
